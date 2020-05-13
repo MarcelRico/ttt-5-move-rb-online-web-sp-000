@@ -6,7 +6,8 @@ puts "Welcome to Tic Tac Toe!"
 
 board = [" "," "," "," "," "," "," "," "," "]
 puts "Where would you like to go?"
-player_move = gets.strip
+player_input = gets.strip
 
 # Convert Player's Input To Gameboard Integer Index
-move_index = input_to_index(player_move)
+desired_move = input_to_index(player_input)
+move(board, desired_move)

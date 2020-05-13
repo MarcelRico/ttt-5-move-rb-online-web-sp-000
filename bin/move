@@ -11,3 +11,4 @@ player_input = gets.strip
 # Convert Player's Input To Gameboard Integer Index
 desired_move = input_to_index(player_input)
 move(board, desired_move,"X")
+display_board(board)

@@ -11,3 +11,7 @@ end
 def input_to_index(player_move)
   player_move.to_i - 1
 end
+
+def move
+  
+end

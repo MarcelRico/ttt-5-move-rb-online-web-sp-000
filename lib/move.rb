@@ -12,6 +12,6 @@ def input_to_index(player_move)
   player_move.to_i - 1
 end
 
-def move
+def move(board,desired_move,player_symbol)
   
 end

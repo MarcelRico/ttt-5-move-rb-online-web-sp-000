@@ -13,5 +13,5 @@ def input_to_index(player_move)
 end
 
 def move(board,desired_move,player_symbol="X")
-  
+  board[desired_move] = player_symbol
 end

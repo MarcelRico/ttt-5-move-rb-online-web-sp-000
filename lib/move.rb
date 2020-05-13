@@ -9,5 +9,5 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(player_move)
-  player_move - 1
+  puts player_move
 end
